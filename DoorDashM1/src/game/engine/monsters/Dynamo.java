@@ -9,7 +9,7 @@ public class Dynamo extends Monster {
 	}
 	
 	public void alterEnergy(int energy){
-		energy=energy*2;
+		super.alterEnergy(energy*2);
 	}
 
 	@Override
