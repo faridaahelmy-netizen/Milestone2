@@ -1,0 +1,22 @@
+package game.engine.cards;
+
+import game.engine.monsters.Monster;
+
+public class SwapperCard extends Card {
+
+	public SwapperCard(String name, String description, int rarity) {
+		super(name, description, rarity, true);
+	}
+
+	@Override
+	public void performAction(Monster player, Monster opponent) {
+		if(player.getPosition()<opponent.getPosition()){
+		 int temp= player.getPosition();
+		//ask abt how to alter read only value position
+		 
+		
+		}
+		
+	}
+	
+}
